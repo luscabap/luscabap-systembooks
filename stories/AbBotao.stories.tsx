@@ -13,10 +13,10 @@ export const Primario = Template.bind({})
 Primario.args = {
     texto: 'Ab Botão Primário',
     tipo: 'primario'
-} as IAbBotaoProps
+} as IAbBotaoProps;
 
 export const Secundario = Template.bind({})
 Secundario.args = {
     texto: 'Ab Botão Secundário',
     tipo: 'secundario'
-} as IAbBotaoProps
+} as IAbBotaoProps;
