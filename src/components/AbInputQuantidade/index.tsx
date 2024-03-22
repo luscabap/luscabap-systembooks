@@ -16,7 +16,7 @@ const ContainerInputQuantidadeStyled = styled.div`
 
 const BotaoStyled = styled.button`
     background: #002F52;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 2px 4px rgba(19, 19, 19, 0.25);
     border: none;
     cursor: pointer;
     color: #FFF;
