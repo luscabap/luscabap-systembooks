@@ -29,8 +29,9 @@ const ContainerCampoTextoStyled = styled.div`
         padding: 8px 24px;
 
         &:focus{
-        outline: none;
-    }
+            outline: none;
+            border: 1px solid #0d5184;
+        }
     }
 `
 
