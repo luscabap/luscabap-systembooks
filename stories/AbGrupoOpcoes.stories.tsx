@@ -1,6 +1,6 @@
 import React from "react";
 import { AbGrupoOpcoes, IAbGrupoOpcoesProps } from '../src';
-import { ComponentMeta, ComponentStory } from '@storybook/react'
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 export default {
     title: 'Components/AbGrupoOpcoes',

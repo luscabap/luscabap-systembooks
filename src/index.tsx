@@ -14,3 +14,4 @@ export * from './components/AbCard';
 export * from './components/AbTag';
 export * from './components/AbGrupoOpcoes';
 export * from './components/AbCampoTexto';
+export * from './components/AbInputQuantidade';
