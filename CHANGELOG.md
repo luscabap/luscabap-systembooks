@@ -1,3 +1,16 @@
+# v0.2.4 (Fri Mar 22 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Fix ([@luscabap](https://github.com/luscabap))
+- Componente AbInputQuantidade ([@luscabap](https://github.com/luscabap))
+
+#### Authors: 1
+
+- Lucas Baptista ([@luscabap](https://github.com/luscabap))
+
+---
+
 # v0.2.3 (Fri Mar 22 2024)
 
 #### ⚠️ Pushed to `main`
