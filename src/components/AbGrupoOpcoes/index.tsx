@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 
 const ContainerEstilizado = styled.section<{ selecionado: boolean }>`
@@ -45,14 +45,29 @@ export interface IAbGrupoOpcao {
 }
 
 export interface IAbGrupoOpcoesProps {
-    opcoes: IAbGrupoOpcao[]
+    opcoes: IAbGrupoOpcao[],
+    valorPadrao?: IAbGrupoOpcao | null,
+    onChange?: (opcao: IAbGrupoOpcao) => void
 }
 
-export const AbGrupoOpcoes = ({ opcoes }: IAbGrupoOpcoesProps) => {
+export const AbGrupoOpcoes = ({ opcoes, onChange, valorPadrao }: IAbGrupoOpcoesProps) => {
+    const [selecao, setSelecao] = useState<IAbGrupoOpcao | null>(valorPadrao ?? null);
+
+    const aoSelecionar = (opcao: IAbGrupoOpcao): void => {
+        if (onChange) {
+            onChange(opcao)
+        }
+        setSelecao(opcao)
+    }
+
     return (
         <>
             {opcoes.map(opcao => 
-                <ContainerEstilizado key={opcao.id} selecionado={false}>
+                <ContainerEstilizado 
+                    onClick={() => aoSelecionar(opcao)} 
+                    key={opcao.id} 
+                    selecionado={selecao?.id === opcao.id}
+                >
                 <header>
                     {opcao.titulo}
                 </header>
