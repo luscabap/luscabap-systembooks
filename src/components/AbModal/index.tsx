@@ -3,8 +3,8 @@ import styled from "styled-components";
 
 const ContainerModalStyled = styled.div`
     background-color: #FFF;
-    width: 978px;
-    height: 534px;
+    width: 900px;
+    height: 530px;
     border-radius: 24px;
     padding: 64px 48px 56px 48px;
     position: fixed;
@@ -21,6 +21,9 @@ const FundoModal = styled.div`
     top: 0px;
     bottom: 0px;
     background: rgba(101, 101, 101, 0.85);
+    display: flex;
+    align-items: center;
+    align-items: center;
 `;
 
 const TituloModalWrapper = styled.div`
@@ -51,6 +54,7 @@ export interface IModalProps {
     aberta: boolean,
     aoFechar: () => void
 }
+
 
 export const AbModal = ({ children, titulo, aberta, aoFechar }: IModalProps) => {
     if (!aberta) {
