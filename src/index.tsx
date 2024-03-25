@@ -15,4 +15,4 @@ export * from './components/AbTag';
 export * from './components/AbGrupoOpcoes';
 export * from './components/AbCampoTexto';
 export * from './components/AbInputQuantidade';
-export * from './Pages/PaginaPrincipal';
+export * from './components/AbModal';
