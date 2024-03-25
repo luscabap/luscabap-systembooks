@@ -1,3 +1,17 @@
+# v0.2.5 (Mon Mar 25 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Reformulacao responsabilidade projeto ([@luscabap](https://github.com/luscabap))
+- Merge branch 'main' of https://github.com/luscabap/luscabap-systembooks ([@luscabap](https://github.com/luscabap))
+- Stories PaginaPrincipal ([@luscabap](https://github.com/luscabap))
+
+#### Authors: 1
+
+- Lucas Baptista ([@luscabap](https://github.com/luscabap))
+
+---
+
 # v0.2.4 (Fri Mar 22 2024)
 
 #### ⚠️ Pushed to `main`
