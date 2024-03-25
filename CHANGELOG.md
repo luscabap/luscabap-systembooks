@@ -1,3 +1,16 @@
+# v0.2.6 (Mon Mar 25 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of https://github.com/luscabap/luscabap-systembooks ([@luscabap](https://github.com/luscabap))
+- Componente AbModal ([@luscabap](https://github.com/luscabap))
+
+#### Authors: 1
+
+- Lucas Baptista ([@luscabap](https://github.com/luscabap))
+
+---
+
 # v0.2.5 (Mon Mar 25 2024)
 
 #### ⚠️ Pushed to `main`
