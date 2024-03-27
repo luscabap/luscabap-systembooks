@@ -38,7 +38,13 @@
   },
   "name": "luscabap-alurabooks-base",
   "author": "Lucas Baptista da Silva",
-  "module": "dist/ds-alurabooks-base.esm.js",
+  "module": "dist/index.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.js"
+    }
+  },
   "size-limit": [
     {
       "path": "dist/ds-alurabooks-base.cjs.production.min.js",
